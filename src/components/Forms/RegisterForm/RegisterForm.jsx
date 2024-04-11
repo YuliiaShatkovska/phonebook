@@ -1,9 +1,8 @@
 import { Container } from 'components/App/App.styled';
-import { Formik, Field, Form } from 'formik';
-import { useState } from 'react';
+import { Formik } from 'formik';
+
 import Notiflix from 'notiflix';
 import { ContentWrap, FormWrap, Input, InputWrap } from '../Forms.styled';
-import './bla.css';
 
 Notiflix.Notify.init({
   width: '260px',

@@ -1,8 +1,14 @@
 import { ImHome } from 'react-icons/im';
-import { CiLogin } from 'react-icons/ci';
+
 import { HeaderBox, HeaderLink, LinksBox } from './Header.styled';
+import { AuthNav } from '../Header/AuthNav/AuthNav';
+import { useSelector } from 'react-redux';
+import { selectIsLoggedIn } from '../../redux/auth/selectors';
+import { UserNav } from '../Header/UserNav/UserNav';
 
 export const Header = () => {
+  const isLoggedIn = useSelector(selectIsLoggedIn);
+
   return (
     <HeaderBox>
       <LinksBox>
@@ -12,15 +18,7 @@ export const Header = () => {
         <HeaderLink to="contacts">Contacts</HeaderLink>
       </LinksBox>
 
-      <LinksBox>
-        <HeaderLink to="register">Sign up</HeaderLink>
-        <HeaderLink
-          to="login"
-          style={{ display: 'flex', alignItems: 'center', gap: '4px' }}
-        >
-          Log in <CiLogin size={24} />
-        </HeaderLink>
-      </LinksBox>
+      <LinksBox>{isLoggedIn ? <UserNav /> : <AuthNav />}</LinksBox>
     </HeaderBox>
   );
 };

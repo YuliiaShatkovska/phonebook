@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family:'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    margin: 0;
     }
 
     h1,
@@ -21,9 +22,13 @@ export const GlobalStyles = createGlobalStyle`
 
     button {
     font-family: inherit;
-     border: none;
+    border: none;
     cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
     }
+
     input {
     font-family: inherit;
     padding: 0;

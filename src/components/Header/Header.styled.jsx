@@ -6,6 +6,7 @@ export const HeaderBox = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+  box-shadow: 1px 2px 10px #c0bfbf;
 
   @media screen and (min-width: 768px) {
     padding-left: 20px;

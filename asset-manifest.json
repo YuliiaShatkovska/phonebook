@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/phonebook/static/css/main.7a8e3ef5.css",
-    "main.js": "/phonebook/static/js/main.cf030901.js",
-    "static/js/346.102198be.chunk.js": "/phonebook/static/js/346.102198be.chunk.js",
-    "static/js/85.6c2ab316.chunk.js": "/phonebook/static/js/85.6c2ab316.chunk.js",
+    "main.js": "/phonebook/static/js/main.556f211b.js",
+    "static/js/646.1c7361b2.chunk.js": "/phonebook/static/js/646.1c7361b2.chunk.js",
+    "static/js/504.a69ab637.chunk.js": "/phonebook/static/js/504.a69ab637.chunk.js",
+    "static/js/855.a7221a4b.chunk.js": "/phonebook/static/js/855.a7221a4b.chunk.js",
+    "static/js/959.3d054891.chunk.js": "/phonebook/static/js/959.3d054891.chunk.js",
     "static/media/Montserrat-Bold.ttf": "/phonebook/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
     "static/media/Montserrat-SemiBold.ttf": "/phonebook/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/phonebook/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
@@ -11,12 +13,14 @@
     "static/media/Montserrat-ExtraLight.ttf": "/phonebook/static/media/Montserrat-ExtraLight.d928d1131a9af02cb672.ttf",
     "index.html": "/phonebook/index.html",
     "main.7a8e3ef5.css.map": "/phonebook/static/css/main.7a8e3ef5.css.map",
-    "main.cf030901.js.map": "/phonebook/static/js/main.cf030901.js.map",
-    "346.102198be.chunk.js.map": "/phonebook/static/js/346.102198be.chunk.js.map",
-    "85.6c2ab316.chunk.js.map": "/phonebook/static/js/85.6c2ab316.chunk.js.map"
+    "main.556f211b.js.map": "/phonebook/static/js/main.556f211b.js.map",
+    "646.1c7361b2.chunk.js.map": "/phonebook/static/js/646.1c7361b2.chunk.js.map",
+    "504.a69ab637.chunk.js.map": "/phonebook/static/js/504.a69ab637.chunk.js.map",
+    "855.a7221a4b.chunk.js.map": "/phonebook/static/js/855.a7221a4b.chunk.js.map",
+    "959.3d054891.chunk.js.map": "/phonebook/static/js/959.3d054891.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a8e3ef5.css",
-    "static/js/main.cf030901.js"
+    "static/js/main.556f211b.js"
   ]
 }

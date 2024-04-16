@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phonebook/static/css/main.7a8e3ef5.css",
-    "main.js": "/phonebook/static/js/main.556f211b.js",
+    "main.js": "/phonebook/static/js/main.2eb23cce.js",
     "static/js/646.1c7361b2.chunk.js": "/phonebook/static/js/646.1c7361b2.chunk.js",
     "static/js/504.a69ab637.chunk.js": "/phonebook/static/js/504.a69ab637.chunk.js",
     "static/js/855.a7221a4b.chunk.js": "/phonebook/static/js/855.a7221a4b.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/Montserrat-ExtraLight.ttf": "/phonebook/static/media/Montserrat-ExtraLight.d928d1131a9af02cb672.ttf",
     "index.html": "/phonebook/index.html",
     "main.7a8e3ef5.css.map": "/phonebook/static/css/main.7a8e3ef5.css.map",
-    "main.556f211b.js.map": "/phonebook/static/js/main.556f211b.js.map",
+    "main.2eb23cce.js.map": "/phonebook/static/js/main.2eb23cce.js.map",
     "646.1c7361b2.chunk.js.map": "/phonebook/static/js/646.1c7361b2.chunk.js.map",
     "504.a69ab637.chunk.js.map": "/phonebook/static/js/504.a69ab637.chunk.js.map",
     "855.a7221a4b.chunk.js.map": "/phonebook/static/js/855.a7221a4b.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.7a8e3ef5.css",
-    "static/js/main.556f211b.js"
+    "static/js/main.2eb23cce.js"
   ]
 }

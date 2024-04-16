@@ -2,7 +2,8 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import Notiflix from 'notiflix';
 
-axios.defaults.baseURL = 'http://localhost:3003/api';
+// axios.defaults.baseURL = 'http://localhost:3003/api';
+axios.defaults.baseURL = 'https://goit-node-rest-api-n6pg.onrender.com/api';
 
 const setAuthHeader = token => {
   axios.defaults.headers.common.Authorization = `Bearer ${token}`;

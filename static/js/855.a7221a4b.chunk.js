@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkphonebook=self.webpackChunkphonebook||[]).push([[855],{855:(e,s,n)=>{n.r(s),n.d(s,{default:()=>c});var o=n(579);const c=()=>(0,o.jsx)(o.Fragment,{children:(0,o.jsx)("p",{children:"here is your contacts"})})}}]);
-//# sourceMappingURL=855.a7221a4b.chunk.js.map

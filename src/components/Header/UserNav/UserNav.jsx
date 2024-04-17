@@ -1,8 +1,10 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { selectUser } from '../../../redux/auth/selectors';
 import { CiLogout } from 'react-icons/ci';
-import { LogoutButton, UserText } from './UserNav.styled';
+
+import { selectUser } from '../../../redux/auth/selectors';
 import { logoutUser } from '../../../redux/auth/operations';
+
+import { LogoutButton, UserText } from './UserNav.styled';
 
 export const UserNav = () => {
   const { name } = useSelector(selectUser);

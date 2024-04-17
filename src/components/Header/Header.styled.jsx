@@ -7,6 +7,7 @@ export const HeaderBox = styled.header`
   align-items: center;
   padding: 16px;
   box-shadow: 1px 2px 10px #c0bfbf;
+  position: sticky;
 
   @media screen and (min-width: 768px) {
     padding-left: 20px;

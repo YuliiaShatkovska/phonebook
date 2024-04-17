@@ -1,8 +1,16 @@
-import { Container } from 'components/App/App.styled';
 import { ErrorMessage, Formik } from 'formik';
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import Notiflix from 'notiflix';
+
+import { Container } from 'components/App/App.styled';
+import { EyeButton } from 'components/EyeBtn/EyeBtn';
+
+import { loginUser, registerUser } from '../../redux/auth/operations';
+
+import { LoginSchema, RegisterSchema } from '../../helpers/schemas/Schemas';
+import '../../helpers/notiflix/notiflix';
+
 import {
   ContentWrap,
   FormBtn,
@@ -12,11 +20,6 @@ import {
   InputLabel,
   InputWrap,
 } from './GeneralForm.styled';
-
-import { EyeButton } from 'components/EyeBtn/EyeBtn';
-import { loginUser, registerUser } from '../../redux/auth/operations';
-import { LoginSchema, RegisterSchema } from '../../helpers/schemas/Schemas';
-import '../../helpers/notiflix/notiflix';
 
 export const GeneralForm = ({
   type,

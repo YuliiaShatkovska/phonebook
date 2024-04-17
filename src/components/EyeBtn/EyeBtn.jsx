@@ -1,5 +1,6 @@
-import { EyeBtn } from 'components/EyeBtn/EyeBtn.styled';
 import { BsEye, BsEyeSlash } from 'react-icons/bs';
+
+import { EyeBtn } from 'components/EyeBtn/EyeBtn.styled';
 
 export const EyeButton = ({ isShowedPassword, onClick }) => {
   return (

@@ -13,7 +13,6 @@ export const ContentWrap = styled.div`
 export const FormWrap = styled(Form)`
   display: flex;
   flex-direction: column;
-
   width: 272px;
 
   @media screen and (min-width: 375px) {
@@ -67,7 +66,7 @@ export const Input = styled(Field)`
 `;
 
 export const FormBtn = styled.button`
-  width: 100px;
+  min-width: 100px;
   margin: 0 auto;
   margin-top: 9px;
   padding: 10px;

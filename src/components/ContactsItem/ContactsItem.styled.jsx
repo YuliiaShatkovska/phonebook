@@ -26,9 +26,11 @@ export const ContactInfoWrap = styled.div`
   > a {
     opacity: 0.5;
 
-    &:hover,
-    &:focus {
-      color: #7be8ea;
+    @media screen and (min-width: 1280px) {
+      &:hover,
+      &:focus {
+        color: #7be8ea;
+      }
     }
   }
 `;
@@ -50,9 +52,11 @@ export const ContactBtn = styled.button`
   align-items: center;
   justify-content: center;
 
-  &:hover,
-  &:focus {
-    opacity: 1;
-    color: #7be8ea;
+  @media screen and (min-width: 1280px) {
+    &:hover,
+    &:focus {
+      opacity: 1;
+      color: #7be8ea;
+    }
   }
 `;

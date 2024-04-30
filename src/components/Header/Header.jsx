@@ -14,10 +14,13 @@ export const Header = () => {
   return (
     <HeaderBox>
       <LinksBox>
-        <HeaderLink to="/">
-          <ImHome size={24} />
-        </HeaderLink>
-        <HeaderLink to="contacts">Contacts</HeaderLink>
+        {isLoggedIn ? (
+          <HeaderLink to="contacts">Contacts</HeaderLink>
+        ) : (
+          <HeaderLink to="/">
+            <ImHome size={24} />
+          </HeaderLink>
+        )}
       </LinksBox>
 
       <LinksBox>{isLoggedIn ? <UserNav /> : <AuthNav />}</LinksBox>

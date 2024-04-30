@@ -33,11 +33,11 @@ export const HeaderLink = styled(NavLink)`
 
   @media screen and (min-width: 1280px) {
     font-size: 20px;
-  }
 
-  &:hover,
-  &:focus {
-    color: #7be8ea;
-    outline: none;
+    &:hover,
+    &:focus {
+      color: #7be8ea;
+      outline: none;
+    }
   }
 `;

@@ -41,10 +41,12 @@ export const EditModalInput = styled(Field)`
   color: #fff;
   opacity: 0.4;
 
-  &:hover,
-  &:focus {
-    border-color: #7be8ea;
-    opacity: 1;
+  @media screen and (min-width: 1280px) {
+    &:hover,
+    &:focus {
+      border-color: #7be8ea;
+      opacity: 1;
+    }
   }
 `;
 
@@ -58,10 +60,12 @@ export const EditBtn = styled.button`
   opacity: 0.4;
   display: block;
 
-  &:hover,
-  &:focus {
-    border-color: #7be8ea;
-    opacity: 1;
+  @media screen and (min-width: 1280px) {
+    &:hover,
+    &:focus {
+      border-color: #7be8ea;
+      opacity: 1;
+    }
   }
 `;
 

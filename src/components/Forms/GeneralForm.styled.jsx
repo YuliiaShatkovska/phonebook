@@ -58,10 +58,12 @@ export const Input = styled(Field)`
   color: #c0bfbf;
   opacity: 0.4;
 
-  &:hover,
-  &:focus {
-    border-color: #7be8ea;
-    opacity: 1;
+  @media screen and (min-width: 1280px) {
+    &:hover,
+    &:focus {
+      border-color: #7be8ea;
+      opacity: 1;
+    }
   }
 `;
 
@@ -74,10 +76,12 @@ export const FormBtn = styled.button`
   border: 1px solid #757473;
   font-size: 14px;
 
-  &:hover,
-  &:focus {
-    border-color: #7be8ea;
-    color: #7be8ea;
+  @media screen and (min-width: 1280px) {
+    &:hover,
+    &:focus {
+      border-color: #7be8ea;
+      color: #7be8ea;
+    }
   }
 `;
 

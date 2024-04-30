@@ -1,6 +1,7 @@
 import { ErrorMessage, Form, Formik } from 'formik';
-
+import { useDispatch } from 'react-redux';
 import { IoClose } from 'react-icons/io5';
+import Notiflix from 'notiflix';
 
 import { EditContactsSchema } from 'helpers/schemas/Schemas';
 
@@ -11,7 +12,7 @@ import {
   EditModalInput,
   EditModalTitle,
 } from 'components/Modal/Modal.styled';
-import { useDispatch } from 'react-redux';
+
 import { updateContacts } from '../../redux/contacts/operations';
 
 export const EditContactForm = ({
@@ -28,6 +29,15 @@ export const EditContactForm = ({
 
   const onHandleSubmit = editedContact => {
     dispatch(updateContacts({ _id, editedContact }));
+
+    if (
+      name === editedContact.name &&
+      email === editedContact.email &&
+      number === editedContact.number
+    )
+      return;
+
+    Notiflix.Notify.info(`The contact has been successfuly edited!`);
   };
 
   return (

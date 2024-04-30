@@ -2,10 +2,11 @@ import { NavLink } from 'react-router-dom';
 import { Container } from 'components/App/App.styled';
 import { HomeBox, HomeText, HomeTitle, HomeWrap } from './HomePage.styled';
 import { useSelector } from 'react-redux';
-import { selectIsLoading } from '../redux/contacts/selectors';
+
+import { selectIsLoggedIn } from '../redux/auth/selectors';
 
 const HomePage = () => {
-  const isLoggedIn = useSelector(selectIsLoading);
+  const isLoggedIn = useSelector(selectIsLoggedIn);
 
   return (
     <HomeWrap>

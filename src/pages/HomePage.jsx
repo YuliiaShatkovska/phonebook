@@ -15,12 +15,11 @@ const HomePage = () => {
           <HomeTitle>CONTACTS</HomeTitle>
 
           {isLoggedIn ? (
-            <HomeText>
+            <HomeText style={{ width: '324px' }}>
               Go to your{' '}
-              <NavLink to="contact" style={{ color: '#61b3b5' }}>
+              <NavLink to="contacts" style={{ color: '#61b3b5' }}>
                 contact list
               </NavLink>{' '}
-              !
             </HomeText>
           ) : (
             <HomeText>

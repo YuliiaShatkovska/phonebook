@@ -23,6 +23,10 @@ export const HomeTitle = styled.h1`
   text-shadow: 1px 1px 2px#7be8ea;
   margin-bottom: 80px;
 
+  @media screen and (min-width: 375px) {
+    font-size: 48px;
+  }
+
   @media screen and (min-width: 768px) {
     font-size: 60px;
     text-shadow: 2px 2px 2px#7be8ea;
@@ -40,9 +44,10 @@ export const HomeText = styled.p`
   line-height: 1.2;
   margin: 0 auto;
   text-align: center;
+  width: 220px;
 
   @media screen and (min-width: 375px) {
-    width: 300px;
+    width: 305px;
   }
 
   @media screen and (min-width: 768px) {

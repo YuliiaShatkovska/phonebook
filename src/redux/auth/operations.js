@@ -2,7 +2,6 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import Notiflix from 'notiflix';
 
-// axios.defaults.baseURL = 'http://localhost:3003/api';
 axios.defaults.baseURL = 'https://goit-node-rest-api-n6pg.onrender.com/api';
 
 const setAuthHeader = token => {
@@ -50,27 +49,6 @@ export const logoutUser = createAsyncThunk(
     } catch (e) {
       Notiflix.Notify.warning('Something went wrong! Please try again!');
       return thunkAPI.rejectWithValue(e.message);
-    }
-  }
-);
-
-export const refreshUser = createAsyncThunk(
-  'auth/refresh',
-  async (_, thunkAPI) => {
-    try {
-      const persistToken = thunkAPI.getState().auth.token;
-
-      if (!persistToken) {
-        return thunkAPI.rejectWithValue('Unable to fetch user');
-      }
-
-      setAuthHeader(persistToken);
-      const { data } = await axios.get('/users/current');
-
-      return data;
-    } catch (e) {
-      Notiflix.Notify.warning('Something went wrong! Please try again!');
-      return thunkAPI.rejectWithValue(e);
     }
   }
 );
